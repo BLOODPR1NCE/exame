@@ -15,15 +15,18 @@ namespace SredArifm
                 {
                     sum = sum + num;
                     count++;
-                    Debug.WriteLine(sum);
-                }
+                    Debug.WriteLine("Новое число: " + num + ", Временнная сумма: " + sum);
+                    Debug.WriteLine("Временное кол-во отрицательных чисел: " + count);
+                    }
             }
                 else
                 {
                     break;
                 }
             double sred = sum / count;
-            Debug.WriteLine(sred);
+            Debug.WriteLine("Итоговая сумма: " + sum);
+            Debug.WriteLine("Итоговое кол-во отрицательных чисел: " + count);
+            Debug.WriteLine("Итоговое среднее значение: " + sred);
             return sred;
         }
     }
