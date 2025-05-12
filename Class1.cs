@@ -4,7 +4,7 @@ namespace SredArifm
 {
     public class TestArifm
     {
-        public double arifm()
+        public double arifm2(int[] nums)
         {
             int sum = 0;
             int count = 0;
@@ -17,9 +17,11 @@ namespace SredArifm
                     count++;
                     Debug.WriteLine(sum);
                 }
-                Console.WriteLine("Введите значение: ");
-                num = Convert.ToInt32(Console.ReadLine());
             }
+                else
+                {
+                    break;
+                }
             double sred = sum / count;
             Debug.WriteLine(sred);
             return sred;
