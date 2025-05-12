@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SredArifm", "SredArifm.csproj", "{4A5EEAA3-2F9E-4D9F-81D0-65D3A3554B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SredArifm.Tests", "..\SredArifm.Tests\SredArifm.Tests.csproj", "{786048B5-4E9E-4D5F-81FC-BB0F089BA23B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A5EEAA3-2F9E-4D9F-81D0-65D3A3554B9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A5EEAA3-2F9E-4D9F-81D0-65D3A3554B9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A5EEAA3-2F9E-4D9F-81D0-65D3A3554B9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A5EEAA3-2F9E-4D9F-81D0-65D3A3554B9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{786048B5-4E9E-4D5F-81FC-BB0F089BA23B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{786048B5-4E9E-4D5F-81FC-BB0F089BA23B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{786048B5-4E9E-4D5F-81FC-BB0F089BA23B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{786048B5-4E9E-4D5F-81FC-BB0F089BA23B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA5EBFE8-5C47-4F35-BBC4-70FC05014A28}
+	EndGlobalSection
+EndGlobal
