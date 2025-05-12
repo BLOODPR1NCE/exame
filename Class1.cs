@@ -1,4 +1,6 @@
-﻿namespace SredArifm
+﻿using System.Diagnostics;
+
+namespace SredArifm
 {
     public class TestArifm
     {
@@ -14,11 +16,13 @@
                 {
                     sum = sum + num;
                     count++;
+                    Debug.WriteLine(sum);
                 }
                 Console.WriteLine("Введите значение: ");
                 num = Convert.ToInt32(Console.ReadLine());
             }
             double sred = sum / count;
+            Debug.WriteLine(sred);
             return sred;
         }
     }
